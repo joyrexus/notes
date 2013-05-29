@@ -4,11 +4,17 @@ Leap
 
 ## Resources
 
-* [Leap Developer Portal](https://developer.leapmotion.com/dashboard)
+* [Developer Portal](https://developer.leapmotion.com/dashboard)
 
-* [Javascript API Tutorial](https://developer.leapmotion.com/documentation/guide/Sample_JavaScript_Tutorial).  
+* [JS API Tutorial](https://developer.leapmotion.com/documentation/guide/Sample_JavaScript_Tutorial)
+
+* [Leap API](https://developer.leapmotion.com/documentation/api/annotated)
+
+* [Open Leap Forum](https://github.com/openleap)
 
 * [Leap/D3 Demo](https://gist.github.com/alangrafu/4650556)
+
+* [Handy](https://github.com/joyrexus/handy)
 
 
 ## Overview
