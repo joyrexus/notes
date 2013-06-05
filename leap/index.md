@@ -6,13 +6,17 @@ Leap
 
 * [Developer Portal](https://developer.leapmotion.com/dashboard)
 
-* [JS API Tutorial](https://developer.leapmotion.com/documentation/guide/Sample_JavaScript_Tutorial)
+* [Leal JS Tutorial](https://developer.leapmotion.com/documentation/guide/Sample_JavaScript_Tutorial)
 
-* [Leap API](https://developer.leapmotion.com/documentation/api/annotated)
+* [Leap JS Examples](http://leapmotion.github.io/leapjs/examples/)
 
 * [Open Leap Forum](https://github.com/openleap)
 
 * [Leap/D3 Demo](https://gist.github.com/alangrafu/4650556)
+
+* [D3 API](https://github.com/mbostock/d3/wiki/API-Reference)
+
+* [Leap API](https://developer.leapmotion.com/documentation/api/annotated)
 
 * [Handy](https://github.com/joyrexus/handy)
 
