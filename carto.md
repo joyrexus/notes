@@ -8,9 +8,13 @@ atmospheric patterns and [orographic](http://en.wikipedia.org/wiki/Orography) ef
 
 ## Tutorials
 
-[Let's Make a Map](http://bost.ocks.org/mike/map/)
+* [Geomapping 101](http://chimera.labs.oreilly.com/books/1230000000345/ch12.html)
 
-[Choropleth Maps in D3](http://blog.visual.ly/how-to-make-choropleth-maps-in-d3/)
+  * [repo](https://github.com/alignedleft/d3-book/tree/master/chapter_12)
+
+* [Let's Make a Map](http://bost.ocks.org/mike/map/)
+
+* [Choropleth Maps](http://blog.visual.ly/how-to-make-choropleth-maps-in-d3/)
 
 
 ## Examples
@@ -19,7 +23,7 @@ atmospheric patterns and [orographic](http://en.wikipedia.org/wiki/Orography) ef
 
 [Jason Davies](http://www.jasondavies.com/maps/)
 
-[Projection Transitions](http://bl.ocks.org/mbostock/3711652)
+[Scott Murray](https://github.com/alignedleft/d3-book/tree/master/chapter_12)
 
 
 ## Resources
