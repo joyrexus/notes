@@ -44,3 +44,32 @@ Society
 ## Courses
 
 [Maps and the GeoSpatial Revolution](https://www.coursera.org/course/maps)
+
+
+## Reference
+
+Relevant wikipedia articles.
+
+* [Cartography](http://en.wikipedia.org/wiki/Cartography)
+
+* [Weather map](http://en.wikipedia.org/wiki/Weather_map)
+
+* [Surface weather analysis](http://en.wikipedia.org/wiki/Surface_weather_analysis)
+
+  * [History of](http://en.wikipedia.org/wiki/History_of_surface_weather_analysis)
+
+* [Geomorphology](http://en.wikipedia.org/wiki/Geomorphology)
+
+* [Topography](http://en.wikipedia.org/wiki/Topography)
+
+* [Orography](http://en.wikipedia.org/wiki/Orography)
+
+* [Geodesy](http://en.wikipedia.org/wiki/Geodesy)
+
+* [Meteorology](http://en.wikipedia.org/wiki/Meteorology)
+
+  * [Outline of](http://en.wikipedia.org/wiki/Outline_of_meteorology)
+
+  * [History of](http://en.wikipedia.org/wiki/Outline_of_meteorology)
+
+  * [Atmospheric physics](http://en.wikipedia.org/wiki/Atmospheric_physics)
