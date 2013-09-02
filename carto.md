@@ -54,9 +54,25 @@ Relevant wikipedia articles.
 
 * [Weather map](http://en.wikipedia.org/wiki/Weather_map)
 
+* [Weather front](http://en.wikipedia.org/wiki/Weather_front)
+
 * [Surface weather analysis](http://en.wikipedia.org/wiki/Surface_weather_analysis)
 
   * [History of](http://en.wikipedia.org/wiki/History_of_surface_weather_analysis)
+
+* [Bergen School](http://en.wikipedia.org/wiki/Bergen_School_of_Meteorology)
+
+* [Norwegian Cyclone Model](http://en.wikipedia.org/wiki/Norwegian_cyclone_model)
+
+* [Frontogenesis](http://en.wikipedia.org/wiki/Frontogenesis)
+
+* [Cyclogenesis](http://en.wikipedia.org/wiki/Cyclogenesis)
+
+  * [Mesocyclone](http://en.wikipedia.org/wiki/Mesocyclone)
+
+  * [Mesoscale Convective System](http://en.wikipedia.org/wiki/Mesoscale_Convective_System)
+
+  * [Mesoscale Convective Complex](http://en.wikipedia.org/wiki/Mesoscale_Convective_Complex)
 
 * [Geomorphology](http://en.wikipedia.org/wiki/Geomorphology)
 
