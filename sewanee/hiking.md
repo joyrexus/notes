@@ -23,6 +23,12 @@ Fiery Gizzard, Foster Falls, Savage Gulf and the Stone Door are all fabulous hik
 
 The [South Cumberland State Park](http://tennessee.gov/environment/parks/SouthCumberland/) has 10 different areas in four counties. There are some fabulous hikes! The Visitor Center is located between Monteagle and Tracy City on Highway 41.
 
+[St.  Mary's](https://www.google.com/maps/preview#!data=!1m4!1m3!1d2497!2d-85.9429486!3d35.1735408!4m25!2m11!1m10!1s0x0%3A0x22f91b73d7318f34!3m8!1m3!1d3312388!2d-85.
+9785989!3d35.830521!3m2!1i1024!2i768!4f13.1!5m12!1m11!1s%22st.+mary's%22+sewanee!4m8!1m3!1d3312388!2d-85.9785989!3d35.830521!3m2!1i1024!2i768!4f13.1!17b1)
+
+[Templeton Library](https://www.google.com/maps/preview#!q=Templeton+Library%2C+Templeton+Way%2C+Sewanee%2C+TN&data=!1m4!1m3!1d2497!2d-85.9427723!3d35.1734842!4m10!1m9!
+4m8!1m3!1d3312388!2d-85.9785989!3d35.830521!3m2!1i1024!2i768!4f13.1)
+
 
 ## In Sewanee
 
