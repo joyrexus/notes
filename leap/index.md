@@ -1,30 +1,50 @@
-Leap
-====
+# Leap
+
+The [Leap](http://leapmotion.com) device is a small motion sensor for capturing hand gestures.  The following provides links to various Leap-related projects and resources.
+
+
+## Projects
+
+* [leap](https://github.com/joyrexus/leap) is our repo for experimenting with
+  various ways to render gesture samples captured with the leap device.
+
+* [handy](https://github.com/joyrexus/handy) provides a simple CLI for 
+  recording and viewing a gesture sample.
+
+* [sandbox](https://github.com/joyrexus/sandbox/tree/master/leap) contains a
+  few simple demos.
+
+These projects were largely inspired by [@syntagmatic](https://github.com/syntagmatic)'s [leap-play](https://github.com/syntagmatic/leap-play) and [prehensile](https://github.com/syntagmatic/prehensile).
+
+
+## WebSocket Stream
+
+This [gist](https://gist.github.com/joyrexus/5555728) demonstrates how to
+connect to the device's [websocket stream](https://gist.github.com/joyrexus/7217032).  It pipes a user specified number of frames from the Leap's websocket stream to `stdout` or to a user specified filename.
 
 
 ## Resources
 
 * [Developer Portal](https://developer.leapmotion.com/dashboard)
 
-* [Leal JS Tutorial](https://developer.leapmotion.com/documentation/guide/Sample_JavaScript_Tutorial)
+* [API](https://developer.leapmotion.com/documentation/api/annotated)
 
-* [Leap JS Examples](http://leapmotion.github.io/leapjs/examples/)
+* [Leap JS](http://js.leapmotion.com/)
+
+  * [Overview](https://developer.leapmotion.com/documentation/Languages/JavaScript/Guides/Leap_Overview.html)
+  * [Tutorial](https://developer.leapmotion.com/documentation/guide/Sample_JavaScript_Tutorial)
+  * [Demos](http://leapmotion.github.io/leapjs/examples/)
+  * [Gists](https://gist.github.com/leapjs)
+  * [API](https://developer.leapmotion.com/documentation/Languages/JavaScript/API/index.html)
+
+* [WebSocket Overview](https://gist.github.com/joyrexus/7217032)
 
 * [Open Leap Forum](https://github.com/openleap)
-
-* [Leap/D3 Demo](https://gist.github.com/alangrafu/4650556)
-
-* [D3 API](https://github.com/mbostock/d3/wiki/API-Reference)
-
-* [Leap API](https://developer.leapmotion.com/documentation/api/annotated)
-
-* [Handy](https://github.com/joyrexus/handy)
 
 
 ## Overview
 
-The Leap Motion device provides a 3D-gestural interaction space of approximately 8 cubic
-feet.  Within this field of view it detects hand motion and orientation as well as finger locations relative to the hand. 
+The Leap Motion device provides a 3D-gestural interaction space of approximately 8 cubic feet.  Within this field of view it detects hand motion and orientation as well as finger locations relative to the hand. 
 
 Detailed specs are not readily available, but we've been able to gather the following from media coverage and developer forum discussions.
 
