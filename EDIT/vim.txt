@@ -1,0 +1,518 @@
+Vim 
+===
+
+.. seealso:
+
+    For more vim tips see ``~/Documents/Reference/Unix/Vim/tips.txt``
+
+
+Filters
+-------
+
+Filter a range of lines (from START to STOP) through COMMAND:: 
+
+    :START,STOP! COMMAND
+
+Filter all lines through COMMAND:
+
+    :%! COMMAND     : all lines 
+
+Filter lines across MOTION through COMMAND:
+
+    !MOTION COMMAND
+    
+For example, to sort the five lines following the cursor:
+
+    !5j sort
+
+
+Compare remote files
+--------------------
+
+vimdiff scp://user@host//path/to/file scp://user@otherhost//path/to/file
+
+Pattern searching
+-----------------
+
+    N  /{pattern}[/[offset]]<CR>
+                    search forward for the Nth occurrence of {pattern}
+    N  ?{pattern}[?[offset]]<CR>
+                    search backward for the Nth occurrence of {pattern}
+    N  /<CR>        repeat last search, in the forward direction
+    N  ?<CR>        repeat last search, in the backward direction
+    N  n            repeat last search
+    N  N            repeat last search, in opposite direction
+    N  *            search forward for the identifier under the cursor
+    N  #            search backward for the identifier under the cursor
+    N  g*           like "*", but also find partial matches
+    N  g#           like "#", but also find partial matches
+       gd           goto local declaration of identifier under the cursor
+       gD           goto global declaration of identifier under the cursor
+
+Search and delete a control character (^B) in your file:
+
+    :%s/<CTRL-V><CTRL-B>//
+
+Change tabs to spaces:
+
+    :retab
+
+Move between files:
+
+    :n		move to next file in list
+    :3n		move 3 files forward in list
+    :n		move to previous file in list
+    :3n		move 3 files back in list
+    :first	move to first file in list
+    :last	move to last file in list
+
+Edit transcripts without line wrapping:
+
+    :set list
+    :set nowrap
+    :set noexpandtab
+    :set textwidth=0
+
+Move halfway down current file:
+
+    :50%
+
+Insert contents of register 0 on commandline:
+
+    :ctrl-r "0
+
+Set filetype to htmldjango when working on django templates:
+
+    :setfiletype htmldjango
+
+    ... or ...
+
+    :setfiletype django
+
+%     : match brackets
+*, #  : find next/previous word under cursor
+'.    : jump to last modified line
+``	  : jump to previous context (or marker)
+
+mX    : set a global marker at cursor location 
+`X 	  : move cursor to X
+
+mx    : set a local marker at cursor location 
+`x 	  : move cursor to x
+
+"ayy  : yank line to register a
+"a5yy : yank 5 lines to register a
+"Ayw  : append yanked word to register a
+"ap   : put register a after cursor
+"aP   : put register a before cursor
+
+E	  : move to end of word
+vEU	  : upper case word
+vEu	  : lower case word
+gUU   : uppercase line
+guu	  : lowercase line
+ggguG : lower case entire file
+
+:map  : show mappings
+:ab   : show abbreviations
+:his  : show history
+:reg  : show register
+
+:set nu		: show line numbers 
+:set list	: show hidden characters
+:set ruler	: show cursor position
+:set wrap	: set line wrapping
+
+:set no<OPT>: unset option (e.g., :set nowrap)
+:set tw=0 	: prevent automatic line breaks
+:<RANGE> l 	: show hidden characters within line range (e.g., :1,5 l)
+
+Use q to record macro:
+    qq <commands> q
+
+Play macro saved to q:
+    @q
+Repeat last macro
+    @@
+
+Find and replace patterns on all lines matched by X:
+    :g/X/s/FIND/REPLACE/ 
+
+read in result of unix command line run:
+    :r! <command>
+
+
+! Filters
+
+Filter lines in range:
+    :<range>! FILTER
+
+Sort first ten lines:
+    :1,10! sort
+
+Filter across motion :
+    !<motion> FILTER
+
+Sort next five lines:
+    !5j sort
+
+Expand words on lines w/in range:
+    :<range>! perl -pe's/(\w)/$1 /g'
+
+Decrement line numbers in range:
+    :<range>! perl -pe's/(\d+)/$1 - 1/e'	: 
+
+Replace x with letter, incremented by line (a, b, c ... ):
+    :<range>! perl -pe'@r = a..z; s/x/$r[$n++]/'
+
+
+<C-R>		 : redo last undo
+
+<C-A>, <C-X> : increment/decerement number under cursor 
+
+<C-N>, <C-P> : to auto-complete partial word under cursor with
+               next/previous match
+
+<C-O>, <C-I> : retrace movements 
+
+<C-X><C-L>  : auto-complete partial line
+
+/<C-R><C-W> : put word under cursor onto search line
+
+<C-R>=CALC  : insert result of CALC (e.g.: 5*5)
+
+
+! perldo
+:[RANGE]perldo CMD  Execute Perl command {cmd} for each line in the
+                    [range], with $_ being set to the text of each line in
+                    turn, without a trailing <EOL>. Setting $_ will change
+                    the text, but note that it is not possible to add or
+                    delete lines using this command.
+                    The default for [range] is the whole file: "1,$".
+
+Count elements on a line:
+    :perldo $x = scalar split /\|/; VIM::Msg("$x")
+
+My maps:
+    ;;	    jump to next slot ("%%%")
+    ,e	    expand character spacing
+    ,v	    edit vimrc 
+    ,s	    source vimrc
+
+!! Mail 
+
+Start postfix:
+    sudo postfix start
+
+Send mail attachments from the command line:
+    (echo "msg"; uuencode dir/file file) | mail -s "subj" jvoigt@uchicago.edu
+
+
+!! Convert
+
+Start OpenOffice as a headless service:
+    soffice -headless -accept="socket,port=8100;urp;"
+
+Convert a single file specify input and output files as parameters:
+    java -jar /usr/local/java/jodconvert.jar file.xls file.tsv
+
+To convert multiple files to a given format specify the format using
+the -f (or --output-format) option and then pass the input files as
+parameters.
+
+Convert xls files to tsv:
+    java -jar /usr/local/java/jodconvert.jar -f tsv *.xls
+    or ...
+    convert *.xls
+
+
+!! Clan
+
+! Morphosyntactic encoding process
+
+xls2chat    to convert tab-delimited transcripts to chat files
+
+check       to check chat formatting
+
+mor +xl     to generate minilex (see morphosyntax-edit.pdf)
+
+            correct flagged disfluencies
+
+mor         to generate initial mor tier
+
+postit      to automatically disambiguate mor tier
+
+            manually correct post disambiguation
+
+graspit     to generate syn tier
+
+            manually correct the automagically inferred syntactic codes
+ 
+chat2xls    to convert encoded chat files to tab-delimited xls files
+            (columns to append to original transcript)
+
+paste       for appending the insertion column files to original transcripts
+
+
+Run mor:
+    mor *cha
+
+Use +xl to create a lexicon of words not recognized by mor:
+    mor +xl *cha
+
+Run post:
+    post +d$ENG_DB +f"out_file" in_file
+
+Run grasp:
+    grasp -g syn -p mor -m $GRASP_MODEL -o out_file in_file
+
+    or ...
+    graspit -o out_file in_file
+
+
+! Evaluating pos tagging in a test file against a gold standard:
+
+Be sure your environment is correctly configured. 
+
+The following environment variables are utilized:
+
+PATH=$PATH:$BIN:$BIN/chat:$CLAN/bin
+PERLLIB=.:$LIB:/System/Library/Perl/5.8.8
+
+CLAN=/usr/local/clan
+ENGLISH_DB=$CLAN/lib/english/eng.db
+LDP_DB=$CLAN/lib/english/ldp_eng.db
+LDP_TEST_DB=$CLAN/lib/english/ldp_eng_test.db
+GRASP_MODEL=$CLAN/lib/megrasp.mod
+
+CHAT_GOLD_FILE=$CLAN/test/master/gold.cha
+CHAT_TEST_FILE=$CLAN/test/master/test.cha
+
+The compare tool compares a "test" file against a file considered as a 
+"gold" standard. It compares a specific tier in the test file against an
+identically named tier in the gold file.
+
+The idea is to use one of the manually disambiguated tiers in our chat files as
+a touchstone to judge the performance of the various automated or
+semi-automated tier generating processes (for example, POSTs
+
+Be sure your using the same three letter tier code in both your gold standard
+file and your test file.
+
+
+!! Rsync
+
+Mirror "Code" directory on Jumper (Verbatim USB Drive):
+    rsync -arzL --delete $WORK/Code/ /Volumes/Jumper/Code
+
+Mirror "Reports" directory on Analord:
+    MIRROR=jvoigt@analord.spc.uchicago.edu:Documents/Work/Reports
+    rsync -arzL --delete $WORK/Reports/ $MIRROR
+
+Mirror "Code" directory on Analord:
+    MIRROR=jvoigt@analord.spc.uchicago.edu:Documents/Work/Code
+    rsync -arzL --delete $WORK/Code/ $MIRROR
+
+Mirror "Code" directory on the Mac Mini:
+    MIRROR=rsync@ldpdb.spc.uchicago.edu:Backups/Code
+    rsync -arzL --delete $WORK/Code/ $MIRROR
+
+Mirror "Backups" directory on the Mac Mini:
+    MIRROR=rsync@ldpdb.spc.uchicago.edu:Backups/Repos
+    rsync -arzL --delete $WORK/Backups/repos $MIRROR
+
+
+Options:
+    -a  --archive
+    -r  --recursive
+    -z  --compress
+        --verbose
+        --progress
+        --stats
+        --delete
+    -L, --copy-links            transform symlink into referent file/dir
+
+
+Subversion
+==========
+
+Start svnserve as daemon, restricting access to repositories below the
+specified path:
+
+    svnserve -d -r /Users/jvoigt/svn --listen-port=3690 
+
+Create a new repository:
+
+    svnadmin create /Users/jvoigt/svn/newrepos
+
+After creating a new repository you should modify the config files:
+
+    cd ~/svn/newrepos/conf
+    vi svnserve.conf passwd
+
+Initial local import of files (where dir contains files) in a new repository:
+
+    svn import dir files:///Users/jvoigt/svn/newrepos -m "Initial import"
+
+Initial remote import of files (where dir contains files) in a new repository:
+
+    svn import dir svn://joyrexus.spc.uchicago.edu/newrepos -m "Initial import"
+
+Initial local checkout of files:
+
+    svn checkout file:///Users/jvoigt/svn/newrepos [dir]
+
+Initial remote checkout of files:
+
+    svn checkout svn://joyrexus.spc.uchicago.edu/newrepos [dir]
+
+
+Repository layout for the repos in ``/Users/jvoigt/svn``
+(``svn://joyrexus.spc.uchicago.edu``):
+
+        joyrex/
+            code/               # various coding projects
+            files/              # shared files: info, tips, etc
+            labs/               # joyrex labs related stuff
+
+        ldp/
+            site/               # sphinx-based doc site
+
+        morphosyntax/           # $WORK/Morphosyntax
+            bin/
+            chat/
+            clan/
+            lib/
+
+
+.. admonition:: The LDP Repository
+
+    While we do have a repository named ``ldp``, it currently only contains 
+    our sphinx-based project documentation site (``site/docs``). Instead of
+    having a single repository containing all project related resources, we've
+    instead decided to split up the resource collections as separate
+    repositories. This makes versioning cleaner, in so much as an update to the
+    docs repository will not affect the versioning of the project's data
+    resources (since the data resources will be in a dedicated repo).
+
+    Once the project resources stabilize we may merge the various repos under
+    the ``ldp`` repo.
+
+            
+Ben's dashboard repo
+--------------------
+
+Checkout the latest version with:
+
+    svn checkout https://ldp.spc.uchicago.edu/svn/ldp_admin/trunk dashboard
+
+
+
+Python
+======
+
+Find methods available for object x:
+    dir(x)
+
+Get help on method:
+    help(x.method)
+
+For proper floating point division:
+    from __future__ import division
+
+Arguments are passed to scripts via sys.argv, a list of strings.
+
+Avoid trailing newline with ',':
+    print n,
+
+Get environment variable:
+    import os
+    var = os.environ['VAR']
+
+Regular expression matching:
+    >>> import re
+    >>> s = 'bar or baz'
+    >>> pattern = re.compile(r'(\w+) or (\w+)')
+    >>> matches = pattern.search(s)
+    >>> matches.group(1)
+    'bar'
+    >>> matches.group(2)
+    'baz'
+
+
+!! Sqlite
+
+Insert header and use tab as separator (CTRL-V then tab):
+    sql -header -seperator '	' $DB $SELECT
+
+Show extant tables in my.db:
+    sql my.db ".table"
+
+Show extant tables and column info for my.db:
+    sql my.db "select * from sqlite_master"
+
+Sample queries on my.db:
+    sql my.db "SELECT *  FROM parent WHERE session = 9 and subject = 100"
+    sql my.db "SELECT *  FROM parent 
+               WHERE session = 9 
+               AND subject = 100
+               ORDER BY subject"
+
+Sample join statement:
+
+    SELECT table_1.col_a table_2.col_b FROM table_1, table_2 
+    WHERE table_1.pk=table_2.pk
+
+    SELECT subject.months, line.utts FROM subject, line 
+    WHERE subject.id=line.subject
+
+    SELECT s.months, l.utts FROM subject s, line l WHERE s.id=l.subject
+
+Number of lines for each subject:
+    'select subject, count(row) as total from nounphrase_line group by subject'
+
+Number of lines for each session:
+    'select session, count(row) as total from nounphrase_line group by session'
+
+
+!! Fold
+
+"m" for "minimize" and "r" for "reveal"
+
+Create folds based on indentation:
+    :set foldmethod=indent  
+
+Fold all indents 3 or more levels deep:
+    :set foldlevel=3        
+
+zm    minimize another foldlevel (increase foldlevel by 1)
+zM    minimize all
+zr    reveal another foldlevel
+zR    reveal all
+zc    close a fold at the cursor
+zo    open a fold at the cursor
+zO    open all folds at the cursor
+zf#j  create a fold from the cursor down # lines
+zf/S  create a fold from the cursor to string S
+zj    move the cursor to the next fold
+zk    move the cursor to the previous fold
+zd    delete the fold at the cursor
+zE    delete all folds
+[z    move to start of open fold
+]z    move to end of open fold
+
+There are two ways to open and close the folds:
+    By setting the fold level.
+    This gives a very quick way of "zooming out" to view the structure of the
+    text, move the cursor, and "zoom in" on the text again.
+
+    By using |zo| and |zc| commands to open or close specific folds.
+    This allows opening only those folds that you want to be open, while other
+    folds remain closed.
+
+This can be combined: You can first close most folds by using |zm| a few times
+and then open a specific fold with |zo|.  Or open all folds with |zR| and
+then close specific folds with |zc|.
+
+
+
