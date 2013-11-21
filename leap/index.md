@@ -41,6 +41,8 @@ connect to the device's [websocket stream](https://gist.github.com/joyrexus/7217
 
 * [Open Leap Forum](https://github.com/openleap)
 
+* [Usage Tips and Tutorials](http://support.leapmotion.com/forums/22301371-Tutorials)
+
 
 ## Overview
 
