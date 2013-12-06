@@ -1,6 +1,11 @@
 # Reading List
 
 
+## Style
+
+* [MapBox StyleGuide](https://www.mapbox.com/base/)
+
+
 ## DevTools
 
 * [DevTools Profiling](http://discover-devtools.codeschool.com/chapters/6)
@@ -42,5 +47,7 @@
 * [Take Control of Your Maps](http://alistapart.com/article/takecontrolofyourmaps)
 
 * [Hack Your Maps](http://alistapart.com/article/hack-your-maps)
+
+* [D3 + Leaflet](http://bost.ocks.org/mike/leaflet/)
 
 * [Let's Make a Map](http://bost.ocks.org/mike/map/)
