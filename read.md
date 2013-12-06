@@ -6,6 +6,17 @@
 * [MapBox StyleGuide](https://www.mapbox.com/base/)
 
 
+## Node / Javascript
+
+* [You Don't Know JS](https://github.com/getify/You-Dont-Know-JS)
+
+* [Node School](https://github.com/joyrexus/nodeschool)
+
+* [Stream Handbook](https://github.com/substack/stream-handbook#introduction)
+
+* [LevelUP](https://github.com/rvagg/node-levelup/wiki/Resources)
+
+
 ## DevTools
 
 * [DevTools Profiling](http://discover-devtools.codeschool.com/chapters/6)
@@ -17,13 +28,20 @@
 
 ## D3
 
+* [Mike's Tutorials](https://github.com/joyrexus/sandbox/tree/master/D3#tutorials)
+
 * [Drawing with Data](http://chimera.labs.oreilly.com/books/1230000000345/ch06.html)
 
 * [Workouts](http://vudlab.com/#/workouts)
 
 * [D.R.Y.](http://awinterman.github.io/2013/07/04/DRYing-up-D3.html)
 
-* [How Selections Work](http://bost.ocks.org/mike/selection/)
+
+## Algorithmic Visualizations
+
+* [Bloom Filters](http://www.jasondavies.com/bloomfilter/)
+
+* [Merge Sort](http://bl.ocks.org/mbostock/1243323)
 
 
 ## Sequenced Visualizations
