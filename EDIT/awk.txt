@@ -1,20 +1,21 @@
-!! Awk
-
 Print seventh column: 
+
     awk '{print $7}' $file
 
 Using colon as separater: 
+
     awk -F: '{print $7}' $file
 
 Print avg of third column in file:
+
     awk '{ sum += $3 } END { print sum / NR }' $file
 
 Print a sorted list of user login names:
+
     awk 'BEGIN { FS = ":" } { print $1 | "sort" }' /etc/passwd
 
-File spacing:
+Double space a file:
 
- # double space a file
  awk '1;{print ""}'
  awk 'BEGIN{ORS="\n\n"};1'
 
@@ -231,215 +232,3 @@ Selective deletion of certain lines:
  # delete ALL blank lines from a file (same as "grep '.' ")
  awk NF
  awk '/./'
-
-
-!! Find
-
-Find all files ending in ".c" in current dir:
-    find . -name "*.c" -print
-
-Find all files not ending in "*.c" in current dir:
-    find . ! -name "*.c" -print
-
-Find all plain files in current dir w/out descent:
-    find . -type f -print -maxdepth 1
-
-
-!! Bash
-
-Command substitutions:
-	echo "$(date): $(ssh $(head -1 server.list) uptime)"
-
-Shortcut for last item from previous command: 
-    !$
-
-    Eg, instead of ...
-	ls -l /long/path/to/file.txt
-	vi /long/path/to/file.txt
-
-    try ...
-	ls -l /long/path/to/file.txt
-	vi !$
-
-Correcting typos from previous command: 
-    ^foo^bar
-
-Quick calcs: 
-	expr 14 + (4 * 5)
-
-xargs:
-	xargs -i ssh {} uptime < server.list
-
-for loops: 
-
-    for i in `seq 1 10`; do echo "<<< $i >>>"; done;
-
-To get a sequence w/ leading zeros replace `seq 1 10` w/ ... 
-
-    for i in ` seq '01' '10' `; do echo "$i"; done;
-
-	for s in `cat server.list`; do ssh $s uptime; done;
-
-	for s in $(cat server.list); do echo "$s: $(ssh $s uptime)"; done;
-
-	factorial=1
-	for ((i=1; $i<=5; i++)) do 
-	    factorial=$(($factorial * $i)) 
-	done 
-	echo $factorial
-
-Symbolic links: 
-    ln -s source link
-
-Search backward through the command history:
-    ctrl-r
-
-Show file name of full path listing:
-    basename /foo/bar/baz   # baz
-
-Show file name of full path listing:
-    dirname /foo/bar/baz   # foo/bar
-
-Place a dir on the dirstack:
-    pushd dir
-
-Place a dir on the dirstack without changing dirs:
-    pushd -n dir
-
-Roll through the dirstack:
-    r
-
-List the dirstack:
-    d
-
-cd to the second dir in the dirstack:
-    2
-
-Equivalent to 'echo $PWD':
-    ~+
-
-Equivalent to 'echo $OLDPWD':
-    ~- 
-
-Equivalent to 'dirs +N':
-    ~N 
-    ~+N 
-
-Equivalent to 'dirs -N':
-    ~-N
-
-
-!! Unix
-
-Redirection
-
-cmd 2>file			Send standard error to file; standard output remains 
-					the same (e.g., the screen).
-cmd > file 2>&1 	Send both standard error and standard output to file.
-(cmd > f1) 2>f2 	Send standard output to file f1; standard error to file f2.
-cmd | tee files 	Send output of cmd to standard output (usually the terminal)
-					and to files.
-
-Disk Usage
-
-    du [-h] [-c] [-k] [-s] [-a] [ FILE(S) ]
-    -h gives "human-readable" output
-    -c gives grand total
-    -k gives the number of Kbytes in the current and all subdirectories.
-    -s gives info for each specified file
-    -a gives info for all files
-
-Listing
-
-    ls [-lts]
-    ls lists the contents of the directory
-    -l long format (more information) for entries in the current directory
-    -t sort by date, newest first
-    -s give size in Kbytes for each entry in the current directory.
-
-    ls | wc -l	 : count files in current dir
-    ls -s | sort : sort files by size 
-
-Find the number of unique subjects in a transcript directory:
-    ls *.xls | cut -d'.' -f 1 | sort | uniq | wc -l
-
-Move files created in january to dated directory:
-    mv `ls -l | grep "Jan" | cut -c 51-70` 01-14-05/
-
-Noclobber Suppression
-
-Use an ">!" to suppress noclobber on a redirect which will allow you
-to overwrite an existing file of the same name, e.g.:
-	touch file_1.txt
-	touch file_2.txt
-	cat file_1.txt >! file_2.txt
-
-Use "-f" (mnemonic "force") to suppress noclobber when using rm,  mv or cp:
-	rm -f FILE
-	mv -f file_1.txt file_2.txt
-
-Find
-
-Find all files not ending in "*.c" in current dir: 
-	find . ! -name "*.c" -print
-
-Use find PATH -mtime -1 -maxdepth 1 to list the files modified within the 
-past 24 hours in PATH.
-
-Use find PATH -mtime -m -maxdepth n to list the files modified m days ago 
-down n directories.
-
-Copy
-
-To copy files modified m days ago in SOURCE to TARGET
-
-	cp `find SOURCE -mtime -m -maxdepth 1 -mindepth 1` TARGET
-
-
-Use comm -13 *txt or comm -23 *txt to generate a differential listing of two files
-
-Man Pages
-
-To print a manual page use:
-
-    man command | col -b | ul -t dumb > filename.txt
-
-Crontab
-
-Modify your personal crontab file via vi ~/.crontab
-
-Then reset the crontab file with crontab ~/.crontab
-
-Job Control
-
-To kill job # 1:
-
-    kill %1
-
-To background job # 1:
-
-    bg %1
-
-To foreground job # 1:
-
-    fg %1
-
-To kill all mysql jobs:
-
-    for i in `ps -ef | grep mysql | awk '{print $2}'`; do sudo kill -9 $i;
-    done;
-
-WORD FREQUENCIES:
-tr -cs "[:alpha:]" "\n" < FILE.txt | sort | uniq -c | sort
-
-CHECK WHICH PROCESS IS USING A FILE:
-lsof | grep FILE
-
-CUT LAST N LINES FROM FILE:
-tail -r FILE | tail +N | tail -r
-
-ADD NEWLINE TO END OF FILE:
-echo >> FILE
-
-PIPELINES:
-ls *TXT | cut -d '.' -f 1 | uniq | sort -n
