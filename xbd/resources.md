@@ -1,5 +1,20 @@
+# Resources
+
+
+### Indexing
+
+* [Lucene/Solr Talks](http://www.lucenerevolution.org/2013/Lucene-Solr-Revolution-2013-Dublin-Presentations)
+
+* [Inverted indices with levelup](https://github.com/dominictarr/level-inverted-index)
+
+* [ElasticSearch from the ground up](https://www.found.no/foundation/elasticsearch-from-the-bottom-up)
+
+* [Faceted search with elasticsearch](http://substantial.com/blog/2013/01/16/building-faceted-search-with-elasticsearch/)
+
 
 ### Media/data streams
+
+* [HTML5 Video](http://www.html5rocks.com/en/tutorials/video/basics/)
 
 * [Capturing AV in HTML5](http://www.html5rocks.com/en/tutorials/getusermedia/intro/)
 
