@@ -1,3 +1,5 @@
+# Context
+
 There's a large community of researchers and designers interested in aspects of
 human behavior exhibited in some form of sustained interaction (human-human or
 human-machine).

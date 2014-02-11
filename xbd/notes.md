@@ -1,4 +1,6 @@
-Tapping behavorial data streams: a case study in the use of proximal sensors for __
+# Proximal Action Streams
+
+Tapping behavorial data streams: a case study in the use of proximal sensors 
 
 * analyzing gesture?
 * human motion analysis?
