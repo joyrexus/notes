@@ -43,6 +43,8 @@ connect to the device's [websocket stream](https://gist.github.com/joyrexus/7217
 
 * [Usage Tips and Tutorials](http://support.leapmotion.com/forums/22301371-Tutorials)
 
+* [Tips for mounting a device](https://community.leapmotion.com/t/physically-mounting-for-a-museum/792)
+
 
 ## Overview
 
