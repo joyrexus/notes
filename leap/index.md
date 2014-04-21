@@ -5,11 +5,14 @@ The [Leap](http://leapmotion.com) device is a small motion sensor for capturing 
 
 ## Projects
 
-* [leap](https://github.com/joyrexus/leap) is our repo for experimenting with
-  various ways to render gesture samples captured with the leap device.
+* [live hand viewer](http://bl.ocks.org/joyrexus/7948056) renders the 
+  leap data stream directly off the websocket.
 
-* [handy](https://github.com/joyrexus/handy) provides a simple CLI for 
-  recording and viewing a gesture sample.
+* [leap-record](https://github.com/joyrexus/leap-record) lets you record a
+  gesture sample from the command-line.
+
+* [leap-view](https://github.com/joyrexus/leap-view) lets you view the recorded
+  gesture samples along with interactive playback controls. 
 
 * [sandbox](https://github.com/joyrexus/sandbox/tree/master/leap) contains a
   few simple demos.
@@ -42,6 +45,8 @@ connect to the device's [websocket stream](https://gist.github.com/joyrexus/7217
 * [Open Leap Forum](https://github.com/openleap)
 
 * [Usage Tips and Tutorials](http://support.leapmotion.com/forums/22301371-Tutorials)
+
+* [Tips for mounting a device](https://community.leapmotion.com/t/physically-mounting-for-a-museum/792)
 
 
 ## Overview
