@@ -34,11 +34,14 @@ connect to the device's [websocket stream](https://gist.github.com/joyrexus/7217
 
 * [Leap JS](http://js.leapmotion.com/)
 
+  * [Getting Strated](https://developer.leapmotion.com/leapjs/getting-started)
   * [Overview](https://developer.leapmotion.com/documentation/Languages/JavaScript/Guides/Leap_Overview.html)
-  * [Tutorial](https://developer.leapmotion.com/documentation/guide/Sample_JavaScript_Tutorial)
+  * [Tutorials](https://developer.leapmotion.com/leapjs/tutorials/welcome) 
+  * [Plugins](http://leapmotion.github.io/leapjs-plugins/docs/)
   * [Demos](http://leapmotion.github.io/leapjs/examples/)
   * [Gists](https://gist.github.com/leapjs)
-  * [API](https://developer.leapmotion.com/documentation/Languages/JavaScript/API/index.html)
+  * [API](https://developer.leapmotion.com/documentation/javascript/api/Leap_Classes.html)
+  * [Skeletal beta](https://github.com/leapmotion-examples/javascript/tree/master/v2)
 
 * [WebSocket Overview](https://gist.github.com/joyrexus/7217032)
 
