@@ -2,6 +2,8 @@
 
 Let's investigate the "Thermal Anomaly" referred to in the DFW essay "Derivative Sport in Tornado Alley".  Let's think about this in relation to short-term, mesoscale wind forecasting, and the perceptual/aesthetic dimensions of rendering such a forecast.
 
+![wind](wind.png)
+
 ---
 
 > **The biggest single factor in Central Illinois' quality of outdoor life is wind.** There are more local jokes than I can summon about bent weather vanes and leaning barns, more downstate sobriquets for kinds of wind than there are in Malamut for snow. The wind had a personality, a (poor) temper, and, apparently, agendas. The wind blew autumn leaves into intercalated lines and arcs of force so regular you could photograph them for a textbook on Cramer's Rule and the cross-products of curves in 3-space. It molded winter snow into blinding truncheons that buried stalled cars and required citizens to shovel out not only driveways but the sides of homes; a Central Illinois "blizzard" starts only when the snowfall stops and the wind begins. Most people in Philo didn't comb their hair because why bother. Ladies wore those plastic flags tied down over their parlor-jobs so regularly I thought they were required for a real classy coiffure; girls on the East Coast outside with their hair hanging and tossing around looked wanton and nude to me. Wind wind etc. etc.
@@ -35,7 +37,7 @@ Let's investigate the "Thermal Anomaly" referred to in the DFW essay "Derivative
 
 * [Matthew Rocklin](http://matthewrocklin.com/)
   * *Uncertainty Quantification and Sensitivity Analysis in Dynamical Systems*
-    * [thesis](rocklin/paper.pdf)
+    * [thesis](rocklin/masters.pdf)
     * [slides](rocklin/slides.pdf)
 
 
