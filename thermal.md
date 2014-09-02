@@ -10,10 +10,23 @@ Let's investigate the "Thermal Anomaly" referred to in the DFW essay "Derivative
 
 ---
 
+* [GFS](http://en.wikipedia.org/wiki/Global_Forecast_System) - a global
+  numerical weather prediction system containing a global computer model and
+  variational analysis run by the US National Weather Service (NWS). 
+* [WRF](http://en.wikipedia.org/wiki/Weather_Research_and_Forecasting_Model) -
+  weather research and forecasting model; serves a wide range of
+  meteorological applications across scales ranging from meters to thousands of
+  kilometers.
+
+---
+
 * [earth](earth.nullschool.net) -- gorgeous wind visualization driven by [GFS](http://en.wikipedia.org/wiki/Global_Forecast_System) data and D3.
+
+---
 
 * [weather front](http://en.wikipedia.org/wiki/Weather_front)
 * [bergen school](http://en.wikipedia.org/wiki/Bergen_School_of_Meteorology)
 * [norwegian cyclone model](http://en.wikipedia.org/wiki/Norwegian_cyclone_model)
 
 * [continuum mechanics](http://en.wikipedia.org/wiki/Continuum_mechanics)
+
