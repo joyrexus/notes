@@ -22,6 +22,17 @@ power tools and add-ons worth your consideration.  Use `jot` to print sequential
 * [Unix Tools](http://joyrexus.spc.uchicago.edu/labs/notes/unix.html)
 
 
+#### Permissions
+
+Setting directories to `g+s` mode makes all new files created in said directory have their group set to the directory's group.
+
+    chmod -R g+s .
+    find . -type d -exec chmod g+s {} \;
+
+This can actually be really handy for collaborative purposes if you have the
+umask set so that files have group write by default.
+
+
 #### Misc
 
 Print sorted list of all unique terms in first column:
