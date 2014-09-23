@@ -22,6 +22,22 @@ power tools and add-ons worth your consideration.  Use `jot` to print sequential
 * [Unix Tools](http://joyrexus.spc.uchicago.edu/labs/notes/unix.html)
 
 
+#### Login sans password with SSH key pairs
+
+Generate a key pair with `ssh-keygen -t rsa`.
+
+The public key is now located in `~/.ssh/id_rsa.pub`. The private key
+(identification) is now located in `~/.ssh/id_rsa`.
+
+Place the public key on the server you want to use:
+
+    cat ~/.ssh/id_rsa.pub | \
+    ssh user@hostname "mkdir -p ~/.ssh && cat >> ~/.ssh/authorized_keys"
+
+Now whenever you log in as `user` on `hostname` and you will not be prompted
+for a password.
+
+
 #### Permissions
 
 Setting directories to `g+s` mode makes all new files created in said directory have their group set to the directory's group.
