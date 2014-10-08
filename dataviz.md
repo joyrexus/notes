@@ -1,4 +1,18 @@
-## Interactive Dynamics for Visual Analysis
+# Data Viz 
+
+
+## Resources
+
+* [Data + Design](https://infoactive.co/data-design/titlepage01.html) - a
+  simple introduction to preparing and visualizing information
+
+* [Interactive Data Visualization for the Web](http://chimera.labs.oreilly.com/books/1230000000345/index.html) - an intro to D3 for non-programmers
+
+
+## Notes
+
+
+### Interactive Dynamics for Visual Analysis
 
 [Stolen notes](https://raw.github.com/sirrice/csail/master/papers.md) on the [Heer paper](http://queue.acm.org/detail.cfm?id=2146416).
 
@@ -22,7 +36,8 @@ Taxonomy separates into ...
   * Share: deep into the state of a vis, not just the page
   * Guide: provide workflows, common steps, walkthroughs
 
-### Data/View Specs
+
+#### Data/View Specs
 
 * Visualize
   * Data flow: more mechanical, imperitive work
@@ -35,7 +50,8 @@ Taxonomy separates into ...
     directly on a histogram
   * querying
 
-### Manipulation
+
+#### Manipulation
 
 * Select
   * Indirect: Query over a space
