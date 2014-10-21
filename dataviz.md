@@ -8,8 +8,16 @@
 
 * [Interactive Data Visualization for the Web](http://chimera.labs.oreilly.com/books/1230000000345/index.html) - an intro to D3 for non-programmers
 
+* [Crossfilter](http://square.github.io/crossfilter/) - Fast Multidimensional
+  Filtering for Coordinated Views
+
+* [Vega](http://trifacta.github.io/vega/) - a declarative format for 
+  creating, saving and sharing visualization designs
+
 
 ## Notes
+
+**Coordinated views** are multiple visualizations (often presented as Tufte-style [small multiples](http://en.wikipedia.org/wiki/Small_multiple)) that summarize data along different dimensions, where filtering in one dimension updates the others.
 
 
 ### Interactive Dynamics for Visual Analysis
@@ -68,3 +76,4 @@ Taxonomy separates into ...
 * Coordinate
   * join with other data (join _source_ with other data)
   * facetting and small multiples
+
