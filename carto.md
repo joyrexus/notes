@@ -14,7 +14,9 @@ atmospheric patterns and [orographic](http://en.wikipedia.org/wiki/Orography) ef
 
 * [Let's Make a Map](http://bost.ocks.org/mike/map/)
 
-* [Choropleth Maps](http://blog.visual.ly/how-to-make-choropleth-maps-in-d3/)
+* [Analyzing 60 years of tornadoes with Turf](https://www.mapbox.com/blog/60-years-of-tornadoes-with-turf/)
+
+* [Mapbox Guides](https://www.mapbox.com/guides/)
 
 
 ## Examples
@@ -28,12 +30,12 @@ atmospheric patterns and [orographic](http://en.wikipedia.org/wiki/Orography) ef
 
 ## Resources
 
+* [Natural Earth Data](http://www.naturalearthdata.com) - open geodata at various scales
+
 * [NACIS](http://www.nacis.org/) - North American Cartographic Information
 Society
 
 * [AMA](http://en.wikipedia.org/wiki/American_Meteorological_Society) - American Meteorological Society
-
-* [Natural Earth Data](http://www.naturalearthdata.com) - open geodata at various scales
 
 
 ## Journals
