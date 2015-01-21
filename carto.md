@@ -12,11 +12,18 @@ atmospheric patterns and [orographic](http://en.wikipedia.org/wiki/Orography) ef
 
   * [repo](https://github.com/alignedleft/d3-book/tree/master/chapter_12)
 
-* [Let's Make a Map](http://bost.ocks.org/mike/map/)
+* [Let's Make a Map](http://bost.ocks.org/mike/map/) - Mike Bostock's own
+  tutorial
 
-* [Analyzing 60 years of tornadoes with Turf](https://www.mapbox.com/blog/60-years-of-tornadoes-with-turf/)
+* [US Rivers](https://github.com/NelsonMinar/vector-river-map) - Nelson Minar's
+  guide tutorial project demonstrating how to make a vector-based web map
 
-* [Mapbox Guides](https://www.mapbox.com/guides/)
+* [Mapbox Guides](https://www.mapbox.com/guides/) - nice quick walkthrough of
+  the Mapbox approach
+
+* [Analyzing 60 years of tornadoes with Turf](https://www.mapbox.com/blog/60-years-of-tornadoes-with-turf/) - js toolkit for basic geospatial processing
+
+
 
 
 ## Examples
