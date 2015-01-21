@@ -68,4 +68,19 @@ observed recharge and discharge throughout Lost Cove.
 
 ## Resources
 
-* [**vector-river-map**](https://github.com/NelsonMinar/vector-river-map) - Nelson Minar's tutorial demonstrating how to make vector-based web map of the US river network.
+* [geohydrology](http://en.wikipedia.org/wiki/Hydrogeology)
+  * [subsurface flow](http://en.wikipedia.org/wiki/Subsurface_flow)
+  * [groundwater](http://en.wikipedia.org/wiki/Groundwater) 
+    * [model](http://en.wikipedia.org/wiki/Groundwater_model)
+    * [flow](http://en.wikipedia.org/wiki/Groundwater_flow)
+    * [flow equation](http://en.wikipedia.org/wiki/Groundwater_flow_equation)
+
+* [water resources of the US](http://www.usgs.gov/water/) - comrehensive
+  info on the nation's water resources offered by the USGS, including 
+  [groundwater modeling software](http://water.usgs.gov/software/lists/groundwater/)
+
+* [ground water and surface water: a single resource](http://pubs.usgs.gov/circ/circ1139/index.html) - USGS report on natural processes affecting ground-water / surface-water interation
+
+* [vector-river-map](https://github.com/NelsonMinar/vector-river-map) - Nelson Minar's tutorial demonstrating how to make vector-based web map of the US river network
+
+* [algorithms for elevation models](http://www.win.tue.nl/~hermanh/doku.php?id=algorithms_for_geographic_elevation_models) - algorithms to analyse the flow of water across a terrain given a digital elevation model
