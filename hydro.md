@@ -88,3 +88,5 @@ observed recharge and discharge throughout Lost Cove.**
 * [vector-river-map](https://github.com/NelsonMinar/vector-river-map) - Nelson Minar's tutorial demonstrating how to make vector-based web map of the US river network
 
 * [algorithms for elevation models](http://www.win.tue.nl/~hermanh/doku.php?id=algorithms_for_geographic_elevation_models) - algorithms to analyse the flow of water across a terrain given a digital elevation model
+
+* [wrf's research](http://www.ecse.rpi.edu/Homepages/wrf/pmwiki/pmwiki.php/Research/Research) - the research of W. Randolph Franklin at RPI focuses on data structures and algorithms for computational cartography, much of it focused on the effecient representation and processing of terrain (surface elevation models)
