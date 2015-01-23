@@ -16,25 +16,29 @@ For this project I'd like to investigate the applicability of some of the relati
 
 ---
 
-> The complex karst geology of Lost Cove, a 39 km2 watershed in the southeast
+> **The complex karst geology of Lost Cove, a 39 km2 watershed in the southeast
 quadrant of the 7.5’ Sewanee, TN Quadrangle, has been mapped using global
 positioning systems (GPS), Arcview Geographic Information System (GIS), and
-aerial photography. The most prominent sinks and springs in the Mississippian
+aerial photography.**  
+>  
+> **The most prominent sinks and springs in the Mississippian
 Monteagle Limestone on the floor of Lost Cove along Lost Creek have been
-monitored over the past year to study the effects of a fluctuating water table.
-During periods of heavy rain, a rising water table activates ephemeral springs
+monitored over the past year to study the effects of a fluctuating water
+table.**  
+>  
+> During periods of heavy rain, a rising water table activates ephemeral springs
 and streams found throughout the floor of Lost Cove. Most of the water
 ultimately reaches the Big Sink, where it drops 40 m over the next 1.2 km in
-the Buggytop Cave system and emerges as Crow Creek. Detailed subsurface maps of
-the Cove are preliminary, and have not yet demonstrated that all surface water
+the Buggytop Cave system and emerges as Crow Creek. **Detailed subsurface maps of
+the Cove are preliminary**, and have not yet demonstrated that all surface water
 enters the Buggytop system. Dye tracing in major sinks and springs of a major
 tributary, Champion Cove, is underway but has already demonstrated there is no
 direct connection between Prince Spring and the major upstream sink to the
 northeast. Older dye traces on the eastern end of Champion Cove at Temple Sink
 suggest no direct connection to the Lost Cove, Big Sink, or Buggytop systems.
-Other groundwater flowlines throughout lower Lost Cove continue to be traced
+**Other groundwater flowlines throughout lower Lost Cove continue to be traced
 and mapped. Future work will include a comparison between calculated and
-observed recharge and discharge throughout Lost Cove.
+observed recharge and discharge throughout Lost Cove.**
 
 - [Preliminary hydrologic mapping of groundwater flowlines in Lost Cove](https://gsa.confex.com/gsa/2003sc/finalprogram/abstract_49876.htm)
 
@@ -50,17 +54,17 @@ observed recharge and discharge throughout Lost Cove.
 > Several times in a typical year rainfall exceeds the capacity of the sinks
 > for a few days at a time, and an impoundment of up to 10 acres forms adjacent
 > to the lowest point within the cove, the Big Sink. The Big Sink/Buggytop cave
-> system at the southern end of Lost Cove is the only documented
-> joint-controlled karst conduit in the area, but this study also demonstrates
+> system at the southern end of Lost Cove is **the only documented
+> joint-controlled karst conduit in the area**, but this study also demonstrates
 > strong joint control of cave passages in the vicinity of Kirk Spring and
 > other openings in the upper Monteagle Limestone near the floor of Lost Cove.
-> Surface and subsurface flows in the vicinity of Kirk Spring typically change
-> direction over the course of several precipitation events. The strongest
+> **Surface and subsurface flows in the vicinity of Kirk Spring typically change
+> direction over the course of several precipitation events.** The strongest
 > fracture trends are concentrated at azimuths of 25, 40, and 126 degrees, with
 > the 126-degree trend the most consistent throughout the
-> Mississippian-Pennsylvanian section. The fieldwork investigates the
+> Mississippian-Pennsylvanian section. **The fieldwork investigates the
 > relationship between major fracture trends and the volume and direction of
-> flow in sinks and springs at times of drought and high water.
+> flow in sinks and springs at times of drought and high water.**
 
 - [Effects of Joint Systems on Karst Features and Water Flow In Lost Cove](https://gsa.confex.com/gsa/2005AM/finalprogram/abstract_94958.htm)
 
