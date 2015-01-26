@@ -4,11 +4,11 @@ Inspired by the wind flow maps of [Viegas & Wattenberg](http://hint.fm/wind/) an
 
 Lost Cove is located in Franklin County, TN, near the eastern edge of the Southern Cumberland Plateau.  It's a short walk from the campus of the University of the South, which now manages the land.  In early 2008, Sewanee purchased the Cove's 3,000-acres, with a conservation easement held by The Land Trust for Tennessee.  Under the auspices of Sewanee's Environmental Institute, it now serves as a living laboratory for environmental stewardship, fieldwork, and research.
 
-The Cove contains a large underground watershed with a fluctuating water table, consisting of a complex karst geology.  I've come across some references to work that's already been undertaken to map out its watershed network and flowlines.  See references and extracts below.
+The Cove contains a large underground [watershed](http://en.wikipedia.org/wiki/Drainage_basin) with a fluctuating water table, consisting of a complex karst geology.  I've come across some references to work that's already been undertaken to map out its watershed network and flowlines.  See references and extracts below.
 
-For the project I have in mind, the exact representation has yet to be determined.  In fact, the real problem driving this nascent project is that of the representation of natural processes: how to devise representations that are accurate, illuminating, and aesthetically pleasing? In this case, the representation of water flow through a subsurface watershed.
+For the project I have in mind, the exact representation has yet to be determined.  In fact, the real problem driving this nascent project is that of the representation of natural processes: how to devise representations that are accurate, illuminating, and aesthetically pleasing? In this case, the representation of water flow through a subsurface watershed.  We need to think through the possibilities.  
 
-We need to think through the possibilities.  
+The maps of wind flow beautifully illuminate a single natural process represented at a macro scale, where surface features are abstracted away.  Water flows, such as the [US River network](https://github.com/NelsonMinar/vector-river-map), can be represented in essentially the same way.  However, by focusing on a particular geographic region like Lost Cove, working at a meso- or even micro- scale, we no longer need to isolate water flow as a process from the other geological features which determine or impact that process.  We can try to represent this phenomena within the watershed as a whole, as a [drainage system](http://en.wikipedia.org/wiki/Drainage_system_(geomorphology)), where the geomorphic features of the land play a constitutive role.  Rather than abstracting away the topography and geomorphology of Lost Cove, we'd like to render water flows in and through the natural terrain.
 
 With [Eduard Imhof](http://www.reliefshading.com/cartographers/imhof/), relief presentation became both a [coherent discipline](http://esripress.esri.com/display/index.cfm?fuseaction=display&websiteID=118) and [high art](http://www.library.ethz.ch/exhibit/imhof/imhof3_e.html).  How might Imhof's cartographic techniques be extended to incorporate the representation of **natural processes** occurring at the surface and subsurface layers?
 
@@ -71,6 +71,16 @@ observed recharge and discharge throughout Lost Cove.**
 ---
 
 ## Resources
+
+* [lost cove cave](http://en.wikipedia.org/wiki/Lost_Cove_Cave) - Lost Cove
+  Cave is a part of the Carter Natural Area section of South Cumberland State
+  Park and is located in Lost Cove
+
+* [carter natural area](http://www.state.tn.us/environment/natural-areas/natural-areas/mrnmrscarter) - The Mr. and Mrs. Harry Lee Carter Natural Area is a 375-acre natural area located in Franklin County that is part of the South Cumberland Recreation Area. Named after the couple who donated the land to the state, this natural area protects part of a large solution valley associated with the karst erosional processes characteristic of the Cumberland Plateau escarpment. A significant cave system extends from Lost Cove to the head of Crow Creek. The stream systems draining into Lost Cove disappear into the Lost Cove Cave at the Big Sinks and travel underground for over a mile, emerging at the main entrance Buggytop Cave. 
+
+* [guntersville lake watershed](http://www.tn.gov/environment/water/watersheds/guntersville-lake.shtml) - Lost Cove is a subwatershed the Guntersville Lake Watershed of the Tennessee River Basin
+
+* [tn-gis](http://www.tngis.org/) - Tennessee GIS clearinghouse
 
 * [geohydrology](http://en.wikipedia.org/wiki/Hydrogeology)
   * [subsurface flow](http://en.wikipedia.org/wiki/Subsurface_flow)
