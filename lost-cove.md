@@ -80,7 +80,59 @@ observed recharge and discharge throughout Lost Cove.**
 
 * [guntersville lake watershed](http://www.tn.gov/environment/water/watersheds/guntersville-lake.shtml) - Lost Cove is a subwatershed the Guntersville Lake Watershed of the Tennessee River Basin
 
+* [ground water and surface water: a single resource](http://pubs.usgs.gov/circ/circ1139/index.html) - USGS report on natural processes affecting ground-water / surface-water interation
+
+* [water resources of the US](http://www.usgs.gov/water/) - comrehensive
+  info on the nation's water resources offered by the USGS, including 
+  [groundwater modeling software](http://water.usgs.gov/software/lists/groundwater/)
+
 * [tn-gis](http://www.tngis.org/) - Tennessee GIS clearinghouse
+
+---
+
+* [vector-river-map](https://github.com/NelsonMinar/vector-river-map) - Nelson Minar's tutorial demonstrating how to make vector-based web map of the US river network
+
+* [algorithms for elevation models](http://www.win.tue.nl/~hermanh/doku.php?id=algorithms_for_geographic_elevation_models) - algorithms to analyse the flow of water across a terrain given a digital elevation model
+
+---
+
+* [w randolph franklin](http://www.ecse.rpi.edu/Homepages/wrf/pmwiki/pmwiki.php/Research/Research) - the research of W. Randolph Franklin at RPI focuses on data structures and algorithms for computational cartography, much of it focused on the effecient representation and processing of terrain (surface elevation models)
+
+* [brian klinkenberg](http://ibis.geog.ubc.ca/~brian/) - including work on
+  the automatic detection of landforms
+
+* [fernando schwartz](http://www.math.utk.edu/~fernando/index.html) - asst prof
+  at UT Knoxville doing work in computational geometry/topology, including o
+
+* [TGDA@OSU](https://research.math.osu.edu/tgda/) - topology, geometry, and
+  data analysis at OSU
+
+* [appliedtopology.org](http://appliedtopology.org/) - feed and preprints
+
+* [applied algebraic topology research
+  network](https://www.ima.umn.edu/topology/) - promotes and enables
+  collaboration in algebraic topology applied to the sciences and engineering
+  by connecting researchers through a virtual institute
+
+---
+
+* [topography](http://en.wikipedia.org/wiki/Topography) - the study of surface
+  shape and features of the Earth
+
+* [geomorphology](http://en.wikipedia.org/wiki/Geomorphology) - the scientific
+  study of the origin and evolution of topographic and bathymetric features
+  created by physical or chemical processes operating at or near Earth's
+  surface
+  * [physical landscape](http://en.wikipedia.org/wiki/Landscape#Physical_landscape) 
+  * [landform](http://en.wikipedia.org/wiki/Landform)
+
+* [geomorphometry](http://en.wikipedia.org/wiki/Geomorphometry) - the science
+  of quantitative land surface analysis
+  * [open geomorphometry project](http://en.wikipedia.org/wiki/Open-geomorphometry_project) - an open library for analyzing DEMs
+
+* [geomorphometrics](http://en.wikipedia.org/wiki/Geomorphometrics) - the
+  discipline based on the computational measures of the geometry, topography
+  and shape of the Earth's horizons, and their temporal change
 
 * [geohydrology](http://en.wikipedia.org/wiki/Hydrogeology)
   * [subsurface flow](http://en.wikipedia.org/wiki/Subsurface_flow)
@@ -88,15 +140,3 @@ observed recharge and discharge throughout Lost Cove.**
     * [model](http://en.wikipedia.org/wiki/Groundwater_model)
     * [flow](http://en.wikipedia.org/wiki/Groundwater_flow)
     * [flow equation](http://en.wikipedia.org/wiki/Groundwater_flow_equation)
-
-* [water resources of the US](http://www.usgs.gov/water/) - comrehensive
-  info on the nation's water resources offered by the USGS, including 
-  [groundwater modeling software](http://water.usgs.gov/software/lists/groundwater/)
-
-* [ground water and surface water: a single resource](http://pubs.usgs.gov/circ/circ1139/index.html) - USGS report on natural processes affecting ground-water / surface-water interation
-
-* [vector-river-map](https://github.com/NelsonMinar/vector-river-map) - Nelson Minar's tutorial demonstrating how to make vector-based web map of the US river network
-
-* [algorithms for elevation models](http://www.win.tue.nl/~hermanh/doku.php?id=algorithms_for_geographic_elevation_models) - algorithms to analyse the flow of water across a terrain given a digital elevation model
-
-* [wrf's research](http://www.ecse.rpi.edu/Homepages/wrf/pmwiki/pmwiki.php/Research/Research) - the research of W. Randolph Franklin at RPI focuses on data structures and algorithms for computational cartography, much of it focused on the effecient representation and processing of terrain (surface elevation models)
