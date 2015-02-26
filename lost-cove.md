@@ -102,17 +102,14 @@ observed recharge and discharge throughout Lost Cove.**
   the automatic detection of landforms
 
 * [fernando schwartz](http://www.math.utk.edu/~fernando/index.html) - asst prof
-  at UT Knoxville doing work in computational geometry/topology, including o
+  at UT Knoxville doing work in computational geometry/topology
 
 * [TGDA@OSU](https://research.math.osu.edu/tgda/) - topology, geometry, and
   data analysis at OSU
 
 * [appliedtopology.org](http://appliedtopology.org/) - feed and preprints
 
-* [applied algebraic topology research
-  network](https://www.ima.umn.edu/topology/) - promotes and enables
-  collaboration in algebraic topology applied to the sciences and engineering
-  by connecting researchers through a virtual institute
+* [applied algebraic topology research network](https://www.ima.umn.edu/topology/) - promotes and enables collaboration in algebraic topology applied to the sciences and engineering by connecting researchers through a virtual institute
 
 ---
 
