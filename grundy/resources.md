@@ -1,3 +1,10 @@
+# Grundy County Historical Resources
+
+* [Grundy County Historical Society](http://grundycountyhistoricalsociety.com)
+
+* [Grundy County Miner's Museum & Heritage Center](http://www.southeasttennessee.com/www/docs/739.2481/grundy-county-miners-museum.html)
+
+* [Tennessee Consolidate Coal Company Research Library](http://grundycountyhistoricalsociety.com/library-research-center/) is said to have access to thousands of documents, maps, census records, deed records, and more.
 
 * [Bibliography of local history sources for Grundy County](http://www.tn.gov/tsla/history/bibliographies/bibgrundy.htm) by the Tennessee State Library and Archives
 
@@ -14,7 +21,13 @@
 
 ---
 
-## Geocoordinates of mines in Franklin County
+## Mine locations
+
+#### Grundy County
+
+> TO BE DETERMINED
+
+#### Franklin County
 
     PLACE NAME            LATITUDE    LONGITUDE   USGS MAP
     Anderson Quarry       34.9927778  -85.9041667 Eureka
