@@ -617,4 +617,4 @@ James Lawrence Nicholson III was born December 28, 1934, Mr. Nicholson taught at
 
 * [Collection of land grants and deeds](http://www.grundycountyhistory.org/05_Res/Court/Court_Main.htm) assembled by the Grundy County History organization, including the Battle Creek Collection of [Sewanee Mining Company Deeds](http://www.grundycountyhistory.org/05_Res/Court/SewaneeBattleCreekDeeds.pdf)
 
-* [Grundy County Historical Resources](https://github.com/joyrexus/notes/blob/master/grundy/resoruces.md)
+* [Grundy County Historical Resources](https://github.com/joyrexus/notes/blob/master/grundy/resources.md)
