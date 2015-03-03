@@ -1,6 +1,6 @@
 # History of Mining in Grundy County
 
-> Excerpts from James L. Nicholson's [history of Grundy County](http://archive.org/stream/tennesseecountyh31nich/tennesseecountyh31nich_djvu.txt) (part of the **Tennessee County History Series**, MEMPHIS STATE UNIVERSITY PRESS, 1982).
+> Excerpts from James L. Nicholson's [History of Grundy County](http://archive.org/stream/tennesseecountyh31nich/tennesseecountyh31nich_djvu.txt) (part of the **Tennessee County History Series**, MEMPHIS STATE UNIVERSITY PRESS, 1982).
 
 
 ## The Coal Discovery 
@@ -616,3 +616,5 @@ James Lawrence Nicholson III was born December 28, 1934, Mr. Nicholson taught at
 * [Coal Mining in the Cumberland Plateau, 1880-1930](http://www.nps.gov/parkhistory/online_books/sero/appalachian/sec9.htm) - Tennessee Historical Commission
 
 * [Collection of land grants and deeds](http://www.grundycountyhistory.org/05_Res/Court/Court_Main.htm) assembled by the Grundy County History organization, including the Battle Creek Collection of [Sewanee Mining Company Deeds](http://www.grundycountyhistory.org/05_Res/Court/SewaneeBattleCreekDeeds.pdf)
+
+* [Grundy County Historical Resources](https://github.com/joyrexus/notes/blob/master/grundy/mining.md)
