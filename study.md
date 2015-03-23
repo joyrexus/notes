@@ -2,8 +2,6 @@
 
 * [D3 tutorial](http://bost.ocks.org/mike/bar/3/)
 
-* [Ristretto](https://leanpub.com/coffeescript-ristretto/read)
-
 * [Learn RX](http://reactive-extensions.github.io/learnrx/)
 
 * [You don't know JS](https://github.com/getify/You-Dont-Know-JS)
