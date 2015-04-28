@@ -1,3 +1,5 @@
-[greg pond](http://gregpond.net/)
-[pradip malde](http://pradipmalde.com/)
-mayur malde - neighbor involved in [pharmatran](http://pharmatran.com/).
+# People of interest
+
+* [Greg Pond](http://gregpond.net/)
+
+* [Pradip Malde](http://pradipmalde.com/)
