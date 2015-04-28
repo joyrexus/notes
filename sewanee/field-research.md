@@ -1,4 +1,10 @@
-# Sewanee Field Research Committee
+# Domain Research
+
+The academic use of the Domain takes many forms: experimentation, natural history study, monitoring, teaching exercises, and demonstration.  The [Office of Environmental Stewardship and Sustainability](http://www.sewanee.edu/offices/oess/domain-research/) (ESS) supports and administers both internal and external use of the Domain for these purposes by maintaining field monitoring equipment, **implementing experimental manipulations**, **acquiring and managing data**, and assisting with fund-raising for research projects. 
+
+ESS maintains a database of all existing projects on the Domain and administers an approval process for reviewing new project requests.
+
+---
 
 > April 2015  
 >  
@@ -9,9 +15,20 @@ It is the responsibility of the newly created office of Environmental Stewardshi
 
 Property zonation and institutionally defined Critical Areas of Inquiry (e.g., watershed science) in the Domain Environmental Stewardship Master Plan will determine land-use research priorities and inform suitability for new proposals.  Field demonstration projects will be co-located into a Demonstration Forest whenever possible to maximize educational benefit from proximity to other projects, but will be conducted under the objectives set forth for the Demonstration Forest.  
 
-Resource management activities will be prioritized to support projects developed under each topical area in support of education and research objectives.  As part of each project proposal review, the University Archaeologist will ensure new proposals will not compromise cultural resources, and the Domain Manager will play a key role in siting research projects and identifying potential conflicts. All projects utilizing the Domain must first be approved by the Director of Environmental Stewardship following review by the Field Research Committee (FRC).  It is the responsibility of the Office of Environmental Stewardship to track all projects (1) to ensure they conform to the expectations set forth in the project proposals, (2) to ensure that they adhere to general Domain policies, and (3) **to provide a comprehensive list of data acquisition efforts on the Domain for future students and faculty.**
+Resource management activities will be prioritized to support projects developed under each topical area in support of education and research objectives.  As part of each project proposal review, the University Archaeologist will ensure new proposals will not compromise cultural resources, and the Domain Manager will play a key role in siting research projects and identifying potential conflicts. All projects utilizing the Domain must first be approved by the Director of Environmental Stewardship following review by the Field Research Committee (FRC).  
 
-The composition of the Field Research Committee will be as follows: Director of Environmental Stewardship (Chair), Director of Undergraduate Research, and Director of Sponsored Research.   Two Ad Hoc faculty members will be appointed by the Dean of the College to serve on the committee for staggered 2 year terms. All internal and external proposals will be submitted to the committee for review and approval.  The University Archeologist and Domain Manager will serve in an advisory capacity to the FRC and will comment on practical constraints of work proposed and potential land use conflicts (see below).
+It is the responsibility of the Office of Environmental Stewardship to track all projects ...
+1. to ensure they conform to the expectations set forth in the project proposals
+2. to ensure that they adhere to general Domain policies
+3. **to provide a comprehensive list of data acquisition efforts on the Domain for future students and faculty.**
+
+The composition of the Field Research Committee will be as follows: 
+
+* Director of Environmental Stewardship (Chair)
+* Director of Undergraduate Research
+* Director of Sponsored Research
+
+Two Ad Hoc faculty members will be appointed by the Dean of the College to serve on the committee for staggered 2 year terms. All internal and external proposals will be submitted to the committee for review and approval.  The University Archeologist and Domain Manager will serve in an advisory capacity to the FRC and will comment on practical constraints of work proposed and potential land use conflicts (see below).
 
 Site utilization for new class projects and independent studies, field research on the Domain, and University-sponsored projects will follow a site-use request process similar to that used over the past two years by the Domain Stewardship Committee.  The new process outlined below outlines typical expectations for proposal development and review. 
 
@@ -81,6 +98,7 @@ As funds are raised for the establishment of Domain Field Research Fund, the FRC
 * The FRC will determine if proposals have sufficiently addressed external comments through iterative discussions with the PI/project manager.
 
 * For internally funded projects, statistical analysis and chemical analysis are encouraged to be performed through Sewanee departments and include student involvement wherever possible.  Funding for departmental approval of in-house chemical and statistical analysis should be included in proposal budgets and will enhance competitive status in review of Domain Field Research Fund proposals.
+
 
 ## Other Considerations 
 
