@@ -4,6 +4,9 @@ The academic use of the Domain takes many forms: experimentation, natural histor
 
 ESS maintains a database of all existing projects on the Domain and administers an approval process for reviewing new project requests.
 
+The [Landscape Analysis Lab](http://www.sewanee.edu/offices/oess/landscape-analysis-lab/) (LAL) at Sewanee supports geospatial science education and
+Domain research. The LAL is responsible for [developing and managing datasets relevant to Domain research](http://lal.sewanee.edu/digitaldomain).
+
 ---
 
 > April 2015  
